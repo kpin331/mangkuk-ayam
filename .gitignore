@@ -1,0 +1,97 @@
+# Operating system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor and IDE metadata
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+*.swp
+*.swo
+
+# Local AI agent instructions
+AGENTS.md
+.github/copilot-instructions.md
+.github/agents/
+*.agent.md
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+*.local
+*.secret
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Dependencies and package-manager caches
+node_modules/
+.pnpm-store/
+.yarn/
+.yarn-cache/
+.npm/
+.nuxt/
+.bun/
+
+# Common build and coverage output
+bin/
+obj/
+build/
+dist/
+out/
+target/
+coverage/
+.nyc_output/
+.cache/
+.parcel-cache/
+.turbo/
+.next/
+.svelte-kit/
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.venv/
+venv/
+env/
+ENV/
+
+# .NET and tooling artifacts
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+TestResults/
+
+# Java and Gradle tooling
+.gradle/
+*.class
+
+# Local databases and generated data
+*.db
+*.sqlite
+*.sqlite3
+*.pid
+
+# Generated documentation and reports
+site/
+public/generated/
